@@ -1,0 +1,57 @@
+/* src/components/Calculator/Button/Button.module.css */
+.button {
+  padding: 15px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+.number {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.number:hover {
+  background-color: #e0e0e0;
+}
+
+.operator {
+  background-color: #ff9800;
+  color: white;
+}
+
+.operator:hover {
+  background-color: #f57c00;
+}
+
+.equals {
+  background-color: #007aff;
+  color: white;
+  grid-column: span 2;
+}
+
+.special {
+  background-color: #f44336;
+  color: white;
+}
+
+.special:hover {
+  background-color: #da190b;
+}

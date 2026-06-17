@@ -1,0 +1,8 @@
+/* src/components/Calculator/ButtonPad/ButtonPad.module.css */
+.pad {
+  display: grid;
+  /* 'minmax(0, 1fr)' evita que los botones empujen o deformen la columna */
+  grid-template-columns: repeat(4, minmax(0, 1fr)); 
+  gap: 12px;
+  width: 100%;
+}

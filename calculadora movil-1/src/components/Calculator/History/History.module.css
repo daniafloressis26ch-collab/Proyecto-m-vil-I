@@ -1,0 +1,66 @@
+/* src/components/Calculator/History/History.module.css */
+.historyContainer {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.header h3 {
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.clearBtn {
+  background: none;
+  border: none;
+  color: #e53e3e;
+  font-size: 0.85rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.clearBtn:hover {
+  text-decoration: underline;
+}
+
+.empty {
+  color: #a0aec0;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  font-size: 0.95rem;
+  border-bottom: 1px dashed #edf2f7;
+}
+
+.expression {
+  color: #718096;
+}
+
+.result {
+  font-weight: 600;
+  color: #2d3748;
+}
